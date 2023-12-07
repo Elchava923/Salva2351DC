@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/ejercicio1.js"></script>
+    <script src="js/ejercicio1_test.js"></script>
+    <script src="js/ejercicio2.js"></script>
+    <script src="js/ejercicio2_test.js"></script>
+    <script src="js/ejercicio3.js"></script>
+    <script src="js/ejercicio3_test.js"></script>
+    <script src="js/ejercicio4.js"></script>
+    <script src="js/ejercicio4_test.js"></script>
+    <script src="js/ejercicio5.js"></script>
+    <script src="js/ejercicio5_test.js"></script>
+    <script src="js/ejercicio6.js"></script>
+    <script src="js/ejercicio6_test.js"></script>
+    <script src="js/ejercicio7.js"></script>
+    <script src="js/ejercicio7_test.js"></script>
+    <script src="js/ejercicio8.js"></script>
+    <script src="js/ejercicio8_test.js"></script>
+    <script src="js/ejercicio9.js"></script>
+    <script src="js/ejercicio9_test.js"></script>
+    <script src="js/ejercicio10.js"></script>
+    <script src="js/ejercicio10_test.js"></script>
+
+    
+
+    <title>Ejercicios Practica</title>
+    <link rel="stylesheet" href="./prismjs/prism.css">
+</head>
+
+<body>
+
+    <h1>Ejercicio 1</h1>
+    <p>Dados dos numeros A y B, escriba el resultado de la siguiente expresion: (A + B)**2/3</p>
+    
+    
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio1.png" alt="">
+
+    
+    <h1>Codigo</h1> <pre data-src="./js/ejercicio1.js"></pre>
+
+    
+    <h1>Test</h1> <pre data-src="./js/ejercicio1_test.js"></pre>
+
+
+
+    <h1>Ejercicio 2</h1>
+    <p>Dada la matrìcula y 6 calificaciones de un alumno obtenidas a lo largo del semestre, devolver en cadena su matricula y su promedio redondeado a dos dìgitos</p>
+
+    
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio2.png" alt="">
+
+    <h1>Codigo</h1> <pre data-src="./js/ejercicio2.js"></pre>
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio2_test.js"></pre>
+
+
+
+    <h1>Ejercicio 3</h1>
+    <p>Dado un nùmero cualquiera, calcular y el cuadrado y el cubo de dicho nùmero</p>
+
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio3.png" alt="">
+
+    <h1>Codigo</h1> <pre data-src= "./js/ejercicio3.js"></pre>
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio3_test.js"></pre>
+
+    
+    
+    
+
+    <h1>Ejercicio 4</h1>
+    <p>Calcular la distancia entre dos puntos dadas sus coordenadas: (x1, y1) y (x2,y2). Utiliza el teorema de Pitágoras: </p>
+    <p>Distancia = √((x1 - x2)² + (y1 - y2)²)</p>
+
+
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio4.png" alt="">
+
+    <h1>Codigo</h1> <pre data-src="js/ejercicio4.js"></pre>
+
+    <h1>Test</h1> <pre data-src="js/ejercicio4_test.js"></pre>
+
+    
+
+    <h1>Ejercicio 5</h1>
+    <p>Dado el costo de un artìculo vendido y la cantidad de dinero entregada por el cliente, calculè e imprima el cambio que se debe entregar al cliente</p>
+
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio5.png" alt="">
+
+    <h1>Còdigo</h1> <pre data-src="./js/ejercicio5.js"></pre>
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio5_test.js"></pre>
+    
+
+    <h1>Ejercicio 6</h1>
+    <p>Dada la base y altura de un triangulo calcular e imprimir su superficie</p>
+
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio6.png" alt="">
+
+    <h1>Còdigo</h1> <pre data-src="./js/ejercicio6.js"></pre>
+
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio6_test.js"></pre>
+
+
+    <h1>Ejercicio 7</h1>
+    <p>El golf es un deporte en el que los jugadores intentan completar un recorrido
+    en la menor cantidad de golpes posible. Los jugadores tienen un objetivo de "par"
+    para cada hoyo, que representa la cantidad de golpes ideales para completar el hoyo.
+    Dependiendo de cuántos golpes tomes en comparación con el par, se utiliza un sistema
+    de clasificación para determinar qué tan bien lo hiciste en ese hoyo. La función
+    golfCode toma dos argumentos, par y Strokes, y determina la clasificación del jugador
+    en función de la diferencia entre la cantidad de golpes y el par.</p>
+
+    <br>
+      <p>Como se clasifican los resultados en el golf:</p>
+      <ul>
+            <li>"Hole-in-one!": Si el jugador logra el objetivo de un solo golpe (Strokes es igual a 1).</li>
+            <li>"Eagle": Si el jugador toma 2 golpes menos que el par (Strokes es menor o igual a par - 2).</li>
+            <li>"Birdie": Si el jugador toma 1 golpe menos que el par (Strokes es igual a par - 1).</li>
+            <li>"Par": Si el jugador toma exactamente la misma cantidad de golpes que el par (Strokes es igual a par).</li>
+            <li>"Bogey": Si el jugador toma 1 golpe más que el par (Strokes es igual a par + 1).</li>
+            <li>"Double bogey": Si el jugador toma 2 golpes más que el par (Strokes es igual a par + 2).</li>
+            <li>"Go Home": Si el jugador toma 3 o más golpes adicionales que el par (Strokes es mayor o igual a par + 3).</li>
+      </ul>
+   </br>
+
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio7.png" alt="">
+    
+    <h1>Còdigo</h1> <pre data-src="./js/ejercicio7.js"></pre>
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio7_test.js"></pre>
+    
+    
+
+    <h1>Ejercicio 8</h1>
+    <p>desarrolle un programa que dados dos valores regrese el resultado de la siguiente funcion</p>
+
+    
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio8.png" alt="">
+
+    <h1>Còdigo</h1> <pre data-src="./js/ejercicio8.js"></pre>
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio8_test.js"></pre>
+
+    
+    
+    <h1>Ejercicio 9</h1>
+    <p>Realice un programa que lleve a cabo un descuento a los clientes de una tienda utilizando el siguiente criterio:
+    Si el monto es menor a $500 no hay descuento, entre $500 y $999 hay 5% de descuento, de $1000 y menor a $6999 11% de descuento,
+    de $7000 a $14999 18% de descuento, mayor a $15000 25% de descuento</p>
+
+   
+    <h1>Diagrama</h1>
+    <img src="./Diagramas/Diagrama_Ejercicio9.png" alt="">
+
+    <h1>Còdigo</h1><pre data-src="./js/ejercicio9.js"></pre>
+
+    <h1>Test</h1> <pre data-src="./js/ejercicio9_test.js"></pre>
+
+
+    <h1>Ejercicio 10</h1>
+ <p>Su trabajo es programar la función "updateRecords" la cual recibe 4 argumentos(records, id, prop, value).
+
+  <p>
+      <ul>
+          <li>El comportamineto de la función debe ser el siguiente:
+          <li>1. La función siempre debe regresar el objeto completo "records".
+          <li>2. Si "value" es una cadena vacia, borrar la propiedad "prop" del  album cuyo id es "id".
+          <li>3. Si "prop" no es "tracks" y "value" no es una cadena vacia, asignar "value" a la propiedad "prop" del album cuyo id es "id".
+          <li>4. Si "prop" es "tracks", y "value" no es una cadena vacia, se debe actualizar el arreglo "tracks" del album.
+          <li>4.1. En caso de que el album no tenga la propiedad "tracks", esta se debe asignar a un arreglo vacio y después se debe añadir "value" al final del arreglo
+      </ul>
+  </p>
+  <p>Nota: No debes modificar el objeto "recordCollection".</p>
+
+ <h2>Codigo</h2> <pre data-src="./js/ejercicio10.js"></pre>
+
+ <h2>Test</h2> <pre data-src="./js/ejercicio10_test.js"></pre>
+
+
+ <script src="./prismjs/prism.js"></script>
+
+</body>
+</html>
